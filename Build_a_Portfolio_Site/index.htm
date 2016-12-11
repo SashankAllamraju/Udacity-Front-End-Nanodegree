@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Portfolio Project</title>
+  </head>
+  <body>
+<!-- Logo -->
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="images/logo.png" alt="logo on top left">
+        </div>
+<!-- Name and Skill -->
+        <div class="identity">
+          <h1>Sashank Allamraju</h1>
+          <h3>Front-End Ninja</h3>
+        </div>
+      </header>
+<!-- Thick Divider Line -->
+      <hr>
+<!-- Cover Photo which responds to screen size and pixel ratio -->
+			<div class="cover">
+				<picture>
+          <source media="(min-width: 769px)" srcset="http://placehold.it/960x540, http://placehold.it/1920x1080 2x">
+          <source media="(min-width: 481px)" srcset="http://placehold.it/768x432, http://placehold.it/1536x864 2x">
+          <img src="http://placehold.it/480x270" srcset="http://placehold.it/960x540 2x, http://placehold.it/1440x810 3x, http://placehold.it/1920x1080 4x" alt="Portfolio Cover">
+				</picture>
+			</div>
+
+<!-- Project Category -->
+			<div id="featured" class="projects">
+				<h2>Featured Work</h2>
+			</div>
+
+<!-- The container with 'project' objects -->
+			<div class="grid">
+<!-- Project-1 inside container -->
+  			<section class="cell">
+          <picture>
+            <source media="(min-width: 900px)" srcset="http://placehold.it/320x180, http://placehold.it/640x360 2x">
+            <img src="http://placehold.it/480x270" srcset="http://placehold.it/960x540 2x, http://placehold.it/1440x810 3x, http://placehold.it/1920x1080 4x" alt="Project-Appify">
+          </picture>
+      		<h3>Appify</h3>
+          <p><a href="http://github.com/">https://github.com/udacity/Appify</a></p>
+    		</section>
+<!-- Project-2 inside container -->
+  			<section class="cell">
+          <picture>
+            <source media="(min-width: 900px)" srcset="http://placehold.it/320x180, http://placehold.it/640x360 2x">
+            <img src="http://placehold.it/480x270" srcset="http://placehold.it/960x540 2x, http://placehold.it/1440x810 3x, http://placehold.it/1920x1080 4x" alt="Project-Sunflower">
+          </picture>
+      		<h3>Sunflower</h3>
+          <p><a href="http://github.com/">https://github.com/udacity/Sunflower</a></p>
+    		</section>
+<!-- Project-3 inside container -->
+  			<section class="cell">
+          <picture>
+            <source media="(min-width: 900px)" srcset="http://placehold.it/320x180, http://placehold.it/640x360 2x">
+            <img src="http://placehold.it/480x270" srcset="http://placehold.it/960x540 2x, http://placehold.it/1440x810 3x, http://placehold.it/1920x1080 4x" alt="Project-Bokeh">
+          </picture>
+      		<h3>Bokeh</h3>
+          <p><a href="http://github.com/">https://github.com/udacity/Bokeh</a></p>
+    		</section>
+      </div>
+		</div>
+    <footer>
+      <br>
+    </footer>
+	</body>
+</html>
+
